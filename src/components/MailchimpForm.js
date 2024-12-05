@@ -8,7 +8,7 @@ export const MailchimpForm = () => {
   const subscribe = async (formData) => {
     try {
       setStatus('sending');
-      const response = await fetch('/api/subscribe', {
+      const response = await fetch('https://porfolio-backend-ten.vercel.app/api/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
