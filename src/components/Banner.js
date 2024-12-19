@@ -14,10 +14,10 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
 
   const TYPING_SETTINGS = {
-    toRotate: ["A Data Analyst", "A Web Developer", "An AI Application Developer"],
-    period: 2000,
+    toRotate: ["A Data Analyst", "A Web Developer", "An AI App Developer"],
+    period: 500,
     initialDelay: 500,
-    deleteSpeed: 2
+    deleteSpeed: 3
   };
 
   const tick = useCallback(() => {
