@@ -6,6 +6,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.PNG";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
+import projImg7 from "../assets/img/project-img6.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -42,6 +43,12 @@ export const Projects = () => {
       description: "Send the message on the link to start chatting",
       imgUrl: projImg5,
       link: "https://wa.link/dpul0u",
+    },
+    {
+      title: "Webapp for a Caterer",
+      description: "A project developed using the Vue.js framework",
+      imgUrl: projImg7,
+      link: "https://kobbiecusine.vercel.app",
     },
   ];
 
