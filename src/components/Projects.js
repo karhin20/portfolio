@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg6 from "../assets/img/dataAalysis.PNG";
-import projImg2 from "../assets/img/project-img2.png";
+import projectimg7 from "../assets/img/project-img7.png";
 import projImg3 from "../assets/img/project-img3.PNG";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
@@ -21,10 +21,10 @@ export const Projects = () => {
       link: "https://earlyrain.vercel.app/",
     },
     {
-      title: "Demo Website For Ghana Athletics Federation",
-      description: "Front End Website",
-      imgUrl: projImg2,
-      link: "https://ghanacyclingfederation.netlify.app/",
+      title: "Personal Finances Management App",
+      description: "Typescripts, Vite & Supabase Project",
+      imgUrl: projectimg7,
+      link: "https://diligencefinance.netlify.app/",
     },
     {
       title: "Car Auction Website",
@@ -46,7 +46,7 @@ export const Projects = () => {
     },
     {
       title: "Webapp for a Caterer",
-      description: "A project developed using the Vue.js framework",
+      description: "A project developed using the Vite",
       imgUrl: projImg7,
       link: "https://kobbiecusine.vercel.app",
     },
