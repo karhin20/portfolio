@@ -21,7 +21,7 @@ export const Projects = () => {
       link: "https://earlyrain.vercel.app/",
     },
     {
-      title: "Personal Finances Management App",
+      title: "Personal Finance Management App",
       description: "Typescripts, Vite & Supabase Project",
       imgUrl: projectimg7,
       link: "https://diligencefinance.netlify.app/",
