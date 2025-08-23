@@ -14,9 +14,9 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
 
   const TYPING_SETTINGS = {
-    toRotate: ["A Data Analyst", "A Web Developer", "An AI App Developer"],
-    period: 500,
-    initialDelay: 500,
+    toRotate: ["An AI App Developer", "A Workflow Automator", "A Web Developer", "A Data Analyst"],
+    period: 300,
+    initialDelay: 300,
     deleteSpeed: 3
   };
 
@@ -77,7 +77,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I specialize in meticulous data analysis and I'm a dedicated developer committed to crafting elegant and user-centric web solutions.
+                    I specialize in AI application development and workflow automation, creating intelligent solutions that streamline business processes and enhance user experiences.
                   </p>
                   <Link 
                     to="connect" 

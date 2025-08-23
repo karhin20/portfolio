@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg6 from "../assets/img/dataAalysis.PNG";
 import projectimg7 from "../assets/img/project-img7.png";
-import projImg3 from "../assets/img/project-img3.PNG";
+import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg7 from "../assets/img/project-img6.PNG";
@@ -15,10 +15,10 @@ export const Projects = () => {
 
   const projectsTabOne = [
     {
-      title: "Information and Payment Website for an Education Institute",
-      description: "Web Application Development",
+      title: "Staff Overtime, Transport and Risk Management System",
+      description: "Calculates overtime, transport and risk allowances for staff",
       imgUrl: projImg3,
-      link: "https://earlyrain.vercel.app/",
+      link: "https://otrams.vercel.app/",
     },
     {
       title: "Personal Finance Management App",
@@ -61,6 +61,15 @@ export const Projects = () => {
     },
   ];
 
+  const projectsTabThree = [
+    {
+      title: "Workflow Automation Portfolio",
+      description: "Coming soon - showcasing automation solutions and process optimization projects.",
+      imgUrl: projImg1, // Using existing image as placeholder
+      link: "#",
+    },
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -80,7 +89,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Data Analysis</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Graphic Design</Nav.Link>
+                      <Nav.Link eventKey="third">Workflow Automation</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -113,7 +122,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>To be updated</p>
+                      <Row className="justify-content-center">
+                        {
+                          projectsTabThree.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
+                            );
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

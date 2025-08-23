@@ -38,20 +38,20 @@ export const Skills = () => {
                         <p>Experienced full-stack developer with expertise in modern web technologies and AI integration.</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
+                                <img src={meter3} alt="AI apps" />
+                                <h5>AI Application Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Workflow Automation" />
+                                <h5>Workflow Automation</h5>
+                            </div>
+                            <div className="item">
                                 <img src={meter1} alt="Web Development" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Data Analysis" />
                                 <h5>Data Analysis</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt=" Graphic Design" />
-                                <h5>Graphic Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="AI apps" />
-                                <h5>AI Application Development</h5>
                             </div>
                         </Carousel>
                     </div>
